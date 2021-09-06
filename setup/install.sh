@@ -5,6 +5,8 @@
 apt-get update
 
 apt-get install telnet
+apt-get install wget
+apt-get install systemd
 
 # Install JRE
  apt-get --assume-yes install default-jre
@@ -23,7 +25,8 @@ cd $HOME/kafka
 # Updated v1.3-3
 #wget http://www-us.apache.org/dist/kafka/1.1.1/kafka_2.12-1.1.1.tgz
 
-wget http://www-us.apache.org/dist/kafka/2.2.1/kafka_2.12-2.2.1.tgz
+#wget http://www-us.apache.org/dist/kafka/2.2.1/kafka_2.12-2.2.1.tgz
+wget https://archive.apache.org/dist/kafka/2.2.0/kafka_2.12-2.2.0.tgz
 
 mv *.tgz  kafka.tgz
 
